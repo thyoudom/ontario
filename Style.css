@@ -1,0 +1,309 @@
+
+
+.navLogo{
+  float: left;
+}
+.navLogoSecond{
+    display: none;
+}
+.navLogo a{
+  text-decoration: none;
+  position: absolute;
+  width: 233px;
+  float: left;
+}
+.topnav .navLogo a:hover{
+ background-color: transparent;
+}
+.navLogo a img{
+  width: 200px;
+  float: left;
+  margin: 5px 0 0 5px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgb(255, 0, 0);
+  font-family: Arial;
+  
+}
+
+.topnav a {
+  float: right;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-right:0 ;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdownMenu {
+  overflow: hidden;
+  color: rgb(255, 255, 255);
+  float: right;
+}
+
+.dropdownMenu .dropbtn {
+  font-size: 14px;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdownMenu-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdownMenu-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover,
+.dropdownMenu:hover .dropbtn {
+  background-color: rgba(144, 144, 144, 0.47);
+}
+
+.dropdownMenu-content a:hover {
+  background-color: rgb(221, 241, 248);
+}
+
+.dropdownMenu:hover .dropdownMenu-content {
+  display: block;
+  z-index: 100;
+}
+.dropdownMenu .dropdownMenu-content {
+  display: none;
+}
+.dropdownDisplay .dropdownMenu-content {
+  display: block;
+  z-index: 1;
+}
+.dropbtn i{
+  font-size: 1.8rem;
+  float: right;
+  transition: all 0.4s ease;
+}
+.dropdownMenu:hover i{
+  transform: rotate(3.142rad);
+  
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child),
+  .dropdownMenu .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+    margin-top: -40px;
+  }
+  .topnav a {
+    float: left;
+  }
+  
+  .dropbtn i{
+    font-size: 2rem;
+    float: right;
+    transition: all 0.4s ease;
+  }
+  .Spacing{
+      width:100%;
+      height:40px;
+  }
+  .navLogoSecond{
+    display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 0px;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdownMenu {
+    float: none;
+  }
+  .topnav.responsive .dropdownMenu-content {
+    position: relative;
+  }
+  .topnav.responsive .dropdownMenu .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  
+}
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 1000px) {
+  
+}
+@media screen and (max-width: 567px){
+    
+}
+@media screen and (max-width: 320px) {
+  .dropdownMenu {
+  
+  float: left;
+  .navLogoSecond a img{
+    display: block;
+    width: 50%;
+}
+}
+}
+.alert-danger{
+    background-color: red;
+}
+alert-dismissable .close, .alert-dismissible .close{
+ 
+    top: 5px;
+    color: white;
+    
+}
+.alert .animate {
+    text-transform: uppercase;
+    background-image: linear-gradient( -225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100% );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 16px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+@media (min-width: 320px) {
+  .alert .animate{
+      font-size: 12px;
+  }
+  .nav-link > a {
+    line-height: 1;
+    padding: 1.6rem 2rem;
+    color: black;
+    }
+    .modal-content {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+    }
+    #meImg p img{
+        width:1px;
+    }
+    .under{
+        font-size: 10px;
+    }
+}
+@media (min-width: 768px) {
+  .alert .animate{
+      font-size: 16px;
+  }
+  .nav-link > a {
+    line-height: 1;
+    padding: 1.6rem 2rem;
+    color: black;
+}
+.modal-content {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 50%;
+    }
+    #meImg p img{
+        width:1px;
+    }
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+
+
+/* The Close Button */
+.closea {
+  color: #000000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+.closea:hover,
+.closea:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-content strong a{
+    text-decoration: none;
+    list-style: none;
+}
+#aletMesage{
+  background-color: #fff;border-bottom: #000;
+}
+.alert{
+   margin-bottom: -5px;
+}
+.closeHeader{
+  font-size: 4rem; 
+  color: black;
+  background-color: transparent;
+  border: none;
+  background-color: transparent;
+  float: right;
+  height: 10px;
+  margin-top: -15px;
+  margin-right: -30px;
+}
